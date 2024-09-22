@@ -19,28 +19,6 @@ Book::Book(int i, std::string t, std::string a, std::string g, int y, bool b) : 
 {
 }
 
-//Book::Book() : id(0), year(0), borrowed(false)
-//{
-//	std::cout << "\nEnter id: \t";
-//	std::cin >> id;
-//	std::cin.ignore();  // Ignoruje pozosta³e znaki w buforze (np. nowa linia po wprowadzeniu id)
-//
-//	std::cout << "\nName the author: \t";
-//	std::getline(std::cin, author);
-//
-//	std::cout << "\nName the title: \t";
-//	std::getline(std::cin, title);
-//
-//	std::cout << "\nEnter the year: \t";
-//	std::cin >> year;
-//	std::cin.ignore();
-//
-//	std::cout << "\nEnter the genre: \t";
-//	std::getline(std::cin, genre);
-//
-//	borrowed = false; // Przyjêcie, ¿e ksi¹¿ka dodana nie jest od razu wypo¿yczona
-//}
-
 
 Book::~Book()
 {
