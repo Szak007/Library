@@ -114,68 +114,6 @@ void display_found_books(const std::list<Book>& found_books) {
 	}
 }
 
-//void find_books(list_of_books<Book>& books_list) {
-//	int choice;
-//	std::cout << "Choose search criterion:\n";
-//	std::cout << "1. ID\n";
-//	std::cout << "2. Title\n";
-//	std::cout << "3. Author\n";
-//	std::cout << "4. Genre\n";
-//	std::cout << "5. Year\n";
-//	std::cout << "6. Borrowed\n";
-//	std::cin >> choice;
-//
-//	switch (choice) {
-//	case 1: {
-//		int id;
-//		std::cout << "Enter ID: ";
-//		std::cin >> id;
-//		auto found_books = books_list.find_books_by_id(id);
-//		display_found_books(found_books);
-//		break;
-//	}
-//	case 2: {
-//		std::string title;
-//		std::cout << "Enter title: ";
-//		std::cin >> title;
-//		auto found_books = books_list.find_books_by_title(title);
-//		display_found_books(found_books);
-//		break;
-//	}
-//	case 3: {
-//		std::string author;
-//		std::cout << "Enter author: ";
-//		std::cin >> author;
-//		auto found_books = books_list.find_books_by_author(author);
-//		display_found_books(found_books);
-//		break;
-//	}
-//	case 4: {
-//		std::string genre;
-//		std::cout << "Enter genre: ";
-//		std::cin >> genre;
-//		auto found_books = books_list.find_books_by_genre(genre);
-//		display_found_books(found_books);
-//		break;
-//	}
-//	case 5: {
-//		int year;
-//		std::cout << "Enter year: ";
-//		std::cin >> year;
-//		auto found_books = books_list.find_books_by_year(year);
-//		display_found_books(found_books);
-//		break;
-//	}
-//	case 6: {
-//		auto found_books = books_list.find_borrowed_books();
-//		display_found_books(found_books);
-//		break;
-//	}
-//	default:
-//		std::cout << "Invalid choice\n";
-//		break;
-//	}
-//}
 
 
 void find_books(list_of_books<Book>& books_list) {
